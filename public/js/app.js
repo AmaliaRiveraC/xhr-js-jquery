@@ -23,12 +23,16 @@ xhr.open("GET", "http://pokeapi.co/api/v2/pokemon/");
 xhr.send();*/
 
 function crearPokemons(pokemons) {
-  var ul = document.getElementById("pokemons");
+  var $seccion = $("#pokemons");
 
-  pokemons.forEach(function (pokemon) {
-    var li = document.createElement("li");
-    li.textContent = pokemon.name;
+  $(pokemons).each(function (i, pokemon) {
+    var $div =$('<div class="jumbotron col-xs-5"/>');
+    var $parrafo =$( "<p />");
+    var nombrePokemon = pokemon.name;
+    $parrafo.text(nombrePokemon);
+    console.log(nombrePokemon);
 
-    ul.appendChild(li);
+    $div.append($parrafo);
+    $seccion.append($div);
   });
 }
