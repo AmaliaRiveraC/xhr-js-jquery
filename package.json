@@ -1,0 +1,22 @@
+{
+  "name": "xhr-js-jquery",
+  "version": "1.0.0",
+  "description": "js. json. ajax\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[,\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[,\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaliaRiveraC/xhr-js-jquery.git"
+  },
+  "author": "Amalia Rivera <amaliariveracastillejos@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmaliaRiveraC/xhr-js-jquery/issues"
+  },
+  "homepage": "https://github.com/AmaliaRiveraC/xhr-js-jquery#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
